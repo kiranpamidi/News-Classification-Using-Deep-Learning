@@ -57,26 +57,3 @@ Sequential([
     LSTM(64, dropout=0.2, recurrent_dropout=0.2),
     Dense(1, activation='sigmoid')
 ])
-
-## How to Run
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/news-classification-deep-learning.git
-cd news-classification-deep-learning
-Install required packages:
-
-bash
-Copy
-Edit
-pip install pandas numpy scikit-learn tensorflow
-Ensure Fake.csv and True.csv are in the same folder as the script.
-
-Run the script:
-
-bash
-Copy
-Edit
-python news_classification_dl.py
